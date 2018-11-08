@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+   
+}
+h5{
+    opacity: 0.5;
+    display: inline;
+}
+span{
+    opacity: 0.5;
+    font-size: small;
+}
+
+
+p{
+    opacity: 0.5;
+    font-size: small;
+}
+
+                                                                                      /* start of Header */
+header{
+    background:linear-gradient(360deg, rgb(5, 87, 158), rgb(104, 146, 209));
+    height: 5em; 
+    color: rgb(240, 255, 255);
+
+}
+header h1{
+    float: left;
+    padding: 1em 4em;
+    
+    opacity: 0.99;
+
+    
+}
+.form1{
+    float: right;
+    padding: 1em 4em;
+}
+.formElement{
+    display: inline-block;
+    padding-right: 10px;
+}
+.form1 button{
+      border: 1px solid rgba(0, 0, 0, 0.377);
+      background:rgba(5, 87, 158, 0.432);
+      color: azure;
+      padding: 1px 5px;
+}
+                                                                                        /* End of Header */
+
+                                                                                       
+main{
+    clear: both;
+    background-color: rgb(240, 255, 255);
+}
+.side{  
+   padding-top: 4em;
+}
+                                                                    /* left Side */
+.leftSide{
+    float: left;
+    padding-left: 7em;
+    width: 50%;
+}
+.heading1{
+    padding-bottom: 1em;
+    font-weight: 600;
+    opacity: 0.6;
+}
+ul li{
+    padding-bottom: 2em;
+    opacity: 0.6;
+    margin-left: 4em;
+}
+
+ .first-child{
+    list-style-image: url(/assets/images/1.png);
+   
+}
+.second-child{
+    list-style-image: url(/assets/images/2.png);
+}
+.third-child{
+    list-style-image: url(/assets/images/3.png);
+} 
+                                                                                   /* End of left Side */
+                                                    /* Start of right Side */
+.rightSide{
+    float: right;
+    padding-right: 5em;
+    width: 40%;
+    margin-bottom: 10%;
+}
+.head-rightSide{
+    padding-bottom: 1em;
+}
+.heading2{
+    opacity: 0.7;
+}
+.rightSide p{
+    opacity: 0.8;
+    font-size: large;
+}
+.form2{
+    padding-bottom: 1em;
+    
+}
+.form2 input{
+    border-radius: 5px;
+    border: 1px solid rgba(116, 136, 226, 0.788);
+    padding-bottom: 1.2em;
+    margin-bottom: 0.5em;
+}
+input[placeholder]{
+    padding: 0.5em;
+    font-weight: 900;
+    font-size: large;
+    opacity: 0.5;
+}
+#username{
+    width: 45%;
+    margin-right:0.2em;
+}
+#mail{
+    width: 92%;
+}
+
+select{
+    width: 50px;
+    margin-right: 1em;
+    padding: 5px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+#sex{
+    margin-right: 1em;
+    opacity: 0.7;
+}
+input[type=radio]{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+#lastp{
+    opacity: 0.5;
+    font-size: x-small;
+    line-height: 1.4em;
+    width: 80%;
+}
+button[type=submit]{
+    width: 50%;
+    padding: 0.7em;
+    margin: 2em 0;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    color: azure;
+    background: linear-gradient(360deg, rgb(70, 138, 64), rgba(71, 138, 88, 0.61));
+    text-shadow:  1px 1px  rgba(0, 0, 0, 0.486);
+}
+.createApage{
+    color: rgba(12, 61, 167, 0.801);
+    opacity: 1;
+    
+    
+}
+                                                                                 /* end of right Side */
+                                          /* start of footer */
+footer{
+    clear: both;
+    margin-left:  4em;
+    margin-right: 4em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5em;
+    
+}
+.langList{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+    margin-bottom: 0.5em;
+    padding-bottom: 1em;
+}
+a, a:visited{
+    text-decoration: none;
+    color: rgba(12, 61, 167, 0.801);
+    font-size: small;
+}
+input[type=button]{
+    width: 2.2em;
+    margin-left: 1em;
+    font-weight: 1000 ;
+    opacity: 0.7;
+}
+.lastDiv{
+    margin-top: 2em;
+}
