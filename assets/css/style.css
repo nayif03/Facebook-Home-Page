@@ -30,10 +30,7 @@ header{
 header h1{
     float: left;
     padding: 1em 4em;
-    
-    opacity: 0.99;
-
-    
+    color: white;
 }
 .form1{
     float: right;
@@ -67,16 +64,29 @@ main{
 }
 .heading1{
     padding-bottom: 1em;
-    font-weight: 600;
-    opacity: 0.6;
+    font-weight: 500;
+    opacity: 0.8;
 }
 ul li{
     padding-bottom: 2em;
-    opacity: 0.6;
-    margin-left: 4em;
+    
+    list-style: none;
 }
-
- .first-child{
+img{
+    float: left;
+    padding-right: 2em;
+}
+ul li p{
+    opacity: 0.6;
+    padding-top: 1em;
+    text-align: start;
+    font-size: medium;
+    
+}
+strong{
+    opacity: none;
+}
+ /* .first-child{
     list-style-image: url(/assets/images/1.png);
    
 }
@@ -85,7 +95,7 @@ ul li{
 }
 .third-child{
     list-style-image: url(/assets/images/3.png);
-} 
+}  */
                                                                                    /* End of left Side */
                                                     /* Start of right Side */
 .rightSide{
@@ -107,6 +117,12 @@ ul li{
 .form2{
     padding-bottom: 1em;
     
+}
+#p{
+    display: inline;
+    font-size: x-small;
+    opacity: 0.9;
+    color: rgb(5, 87, 158);
 }
 .form2 input{
     border-radius: 5px;
@@ -134,6 +150,7 @@ select{
     padding: 5px;
     margin-top: 0.5em;
     margin-bottom: 1em;
+   
 }
 #sex{
     margin-right: 1em;
@@ -162,8 +179,10 @@ button[type=submit]{
 .createApage{
     color: rgba(12, 61, 167, 0.801);
     opacity: 1;
-    
-    
+}
+.border{
+    border-top: 1px solid rgba(128, 128, 128, 0.212);
+    padding-top: 1em;
 }
                                                                                  /* end of right Side */
                                           /* start of footer */
