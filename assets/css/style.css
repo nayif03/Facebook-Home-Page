@@ -13,8 +13,6 @@ span{
     opacity: 0.5;
     font-size: small;
 }
-
-
 p{
     opacity: 0.5;
     font-size: small;
@@ -81,21 +79,11 @@ ul li p{
     padding-top: 1em;
     text-align: start;
     font-size: medium;
-    
 }
 strong{
     opacity: none;
 }
- /* .first-child{
-    list-style-image: url(/assets/images/1.png);
-   
-}
-.second-child{
-    list-style-image: url(/assets/images/2.png);
-}
-.third-child{
-    list-style-image: url(/assets/images/3.png);
-}  */
+
                                                                                    /* End of left Side */
                                                     /* Start of right Side */
 .rightSide{
@@ -116,7 +104,6 @@ strong{
 }
 .form2{
     padding-bottom: 1em;
-    
 }
 #p{
     display: inline;
@@ -150,7 +137,6 @@ select{
     padding: 5px;
     margin-top: 0.5em;
     margin-bottom: 1em;
-   
 }
 #sex{
     margin-right: 1em;
